@@ -1,0 +1,65 @@
+
+
+.forIcon{
+    border: 1px  solid black;
+    padding: 25px  55px;
+    width: 108%;
+}
+.toCenterSucces{
+    margin-top: 50px;
+    // padding-left: 550px !important;
+    text-align: center;
+    background-color: #fff;
+    width: 50% !important;
+    padding: 20px;
+
+    .forIcon svg{
+        
+        background-color: #FFC20E;
+        font-size: 60px;
+        padding: 6px;
+        border-radius: 50%;
+      
+        
+    }
+    .forSucces{
+        margin-top: 5%;
+        opacity: 0.8;
+        font-size: 17px;
+        padding-bottom: 13px;
+    }
+    .succesMiddle{
+        margin-top: -18px;
+        opacity: 0.8;
+        font-size: 13px;
+        
+    }
+    .succesBtn{
+        background-color: #fff;
+        border: 1.5px solid goldenrod;
+        width: 58%;
+        padding: 5px;
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+    
+    .succesBtn2{
+        background-color: #f9c543;
+        border: none;
+        width: 60%;
+        padding: 5px;
+        font-size: 15px;
+        margin-top: 5%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .toCenterSucces{
+        width: 90% !important;
+        margin-left: 6px !important;
+
+        .succesBtn2{
+            width: 100%;
+        }
+    }
+
+  }

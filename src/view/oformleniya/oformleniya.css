@@ -1,0 +1,378 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* .oformleniya{
+    position: relative;
+} */
+.oformleniya-text{
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 100%;
+    
+    color: #999999;
+}
+.oformleniya_center{
+    justify-content: center;
+}
+    .oformleniya_title{
+        font-weight: 500;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    }
+    .oformleniya_shags{
+        opacity: 0.7;
+        font-size: 12px;
+    }
+    .oformleniya_internal-title{
+        font-style: normal;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+.oformleniya_card{
+    width: 400px !important;
+    /* height: 1000px !important; */
+}
+.oformleniya_card_imag{
+    padding-top: 10px;
+    width: 150px !important;
+}
+.oformleniya_card_title{
+    text-transform: uppercase !important;
+    font-weight: 500 !important;
+    font-size: 17px !important;
+    line-height: 100% !important;
+    color: #000000 !important;
+}
+.oformleniya_card_count {
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 12px !important;
+    line-height: 100% !important;  
+    color: #999999 !important;
+}
+.oformleniya_inp_title{
+    
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 100%;
+/* identical to box height, or 11px */
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #999999;
+}
+
+
+    
+            .ofmlCard{
+                width: 300px !important;
+                height: 660px !important;
+                margin-left: 200px !important;
+            }
+                .ofmlCardImag{
+                        border: none !important;
+                        width: 171px;
+                        height: 102px;
+                    }
+                    .Cals_ekskavator_R14{
+                        color: #000000;
+                        text-transform: uppercase;
+                        font-size: 17px;
+                        font-weight: 500;
+                    }
+                    .Cals_Tip{
+                        color: #999999;
+                        font-size: 12px;
+                    }
+                    .ofmlTons{
+                        margin-left: 25% !important;
+                        color: #333333;
+                        font-size: 13px;
+                    }
+                    .Cals_kolesniy_bottom_txt{
+                         margin-left: 52% !important;
+                        color: #333333;
+                        font-size: 13px;
+                    }
+                    .Cals_tsenaNochno{
+                        position: absolute;
+                        color: #999999;
+                        font-size: 12px;
+                        left: 173px;
+                    }
+                    .Cals_sun_icon{
+                        color: #FFC20E;
+                    }
+                    .Cals_Sun70{
+                        color: #000000;
+                        font-size: 14px;
+                    }
+                    .Cals_sun_chas{
+                        color: #999999;
+                        font-size: 12px;
+                    }
+                    .Cals_moon{
+                        margin-left: 21%;
+                    }
+                    .Cals_SelectOption{
+                        width: 47% !important;
+                    }
+                    .Cals_counterStyle{
+                        border: 1px solid #999999;
+                        height: 72%;
+                        border-radius: 5%;
+                        justify-content: center;
+                        width: 100%;
+                        margin-left: 5%;
+                        cursor: pointer;
+                    }
+                    .CalsItemsStyle{
+                        margin-left: 5%;
+                        margin-top: 5%;
+                    }
+                        .CalsCounterPlus{
+                            color: #9C9C9C;
+                            font-size: 25px;
+                            font-weight: 300;
+                        }
+                        .CalsCounterResult{
+                            color: #333333;
+                            font-size: 14px;
+                            margin-top: 60%;
+                        }
+                    
+                    .CalsGidromolot{
+                        color: #999999;
+                        font-size: 12px;
+                    }
+                        .calsInputCheck{
+                            margin-top: 3%;
+                        }
+                    
+                    .ofmlGreyStay{
+                        width: 110%;
+                        margin-top: 5%;
+                        height: 7%;
+                        background-color: #F9F9F9;
+                        margin-left: -5%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                        .CalsSummarno{
+                            margin-left: 5%;
+                            color: #333333;
+                            font-size: 13px;
+                            font-weight: 500;
+                        }
+                        .CalsTwoDnevniy{
+                            margin-left: 5%;
+                            color: #333333;
+                            font-size: 12px;
+                        }
+                        .CalsTwoNochno{
+                            color: #333333;
+                            font-size: 12px;
+                            margin-left: 35%;
+                        }
+                        .CalsSunIcon2{
+                            margin-left: 5%;
+                        }
+                        .Cals_sun_chas2{
+                            color: #333333;
+                            font-size: 14px;
+                        }
+                        .CalsHr{
+                            width: 90% !important;
+                            margin-left: 5%;
+                        }
+                        .CalsVsego{
+                            color: #333333;
+                            text-transform: uppercase;
+                            text-align: center;
+                        }
+                        .CalsVsego15{
+                            color: #000000;
+                            font-size: 20px;
+                        }
+                        .CalsVsegoSum{
+                            color: #333333;
+                            font-size: 14px;
+                        }
+                    
+                    .calsButton{
+                        margin-left: -5%;
+                        border-radius: unset !important;
+                        width: 110.3% !important;
+                        height: 50px !important;
+                    }
+                    .ofmlCardNextBtn{
+                    margin-left: 225px !important;
+                    color: #666666;
+                    font-size: 15px;
+                    width: 250px;
+                    height: 50px;
+                    border-radius:unset !important ;
+                    margin-top: 5% !important;
+                    border: 1px solid #D2D2D2;
+                    }
+                    .CalsButtonPlus{
+                        color: #999999;
+                        font-size: 20px;
+                        margin-top: -200px !important;
+                    }
+                
+                    .ofmlCardNextText{
+                        color: #999999;
+                        text-align: center;
+                        font-size: 11px;
+                        width: 160%;
+                        margin-left: 225px !important;
+                        margin-top: 20px;
+                    }
+                    .count_numb_tech{
+                        display: flex;
+                        flex-direction: row;
+                        margin-left: 0px;
+                        margin-right: 30px;
+                        margin-bottom: 20px;
+                        margin: 0 30px 20px 0;
+                        border: 1px solid #e7e7e7;
+                        height: 40px;
+                        width: 100%;
+                    }
+                    .oformalenaNumbMinus{
+                        width: 40px;
+                        height: 30px;
+                        border: none;
+                        font-size: 40px;
+                        line-height: 1px;
+                        background-color: #fff;
+                        z-index: 10;
+                    }
+                    .oformalenaNumbPlus{
+                        width: 40px;
+                        height: 30px;
+                        border: none;
+                        font-size: 40px;
+                        line-height: 1px;
+                        background-color: #fff;
+                        z-index: 10;
+                    }
+                    .oformalenaNumb{
+                        text-align: center;
+                        width: 70%;
+                         line-height: 35px;
+                    } 
+                    .orderFooterButton{
+                        margin-left: 15%;
+                        width: 300px !important;
+                        padding: 8% !important;
+                        border-radius: unset !important;
+                    }
+                    .inpText{
+                    margin-bottom: 8px;
+                    text-transform: uppercase;
+                    color: #999999;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 11px;
+                    line-height: 100%;
+                    letter-spacing: 0.1em;
+                   
+                    }
+                      .firstInp{
+                        width: 255px !important;
+                        border-radius: unset !important;
+                        color: #333333 !important;      
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 100%;
+                    }
+                    .secondInp{
+                        width: 350px !important;
+                        border-radius: unset !important;
+                        color: #333333a3 !important ;          
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 100%;
+                    }
+                    .gorod:hover {
+                        background-color: yellow;
+                      }
+                   .kompInp{
+                       margin-top: 50px !important;
+                   }
+                   .ofmlMasage{
+                    border: 1px solid #ced4da;
+                    padding-top: 5px;
+                    padding-left: 10px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 100%;
+                    color: #333333;
+                   }
+                   .ofmlMasage:hover{
+                    border:1px solid #ced4da;
+                   }
+                   .ofmlMasage:focus-visible{
+                    border:1px solid #999999 !important;
+                   }
+                   .thirdInpTeam{
+                       margin-top: 50px !important;
+                   }
+                   .inpBtn{
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    line-height: 100%;
+                    text-align: center;
+                    color: #666666;
+                    background: #FFFFFF;
+                    border: 1px solid #D2D2D2;
+                    box-sizing: border-box;
+                    width: 300px;
+                    height: 50px;
+                   }
+                    @media only screen and (max-width: 600px) {
+                   .ofmlMasage{
+                        width: 300px !important;
+
+                    }
+                    .ofmlCardNextBtn{
+                        margin-left: 20px !important;
+                    }
+                        .firstInp{
+                            width: 80% !important;
+
+                        }
+                            .ofmlCard{
+                                margin-left: unset !important;
+                                margin-top: 20px;
+                            }
+                            .secondInp{
+                                width: 300px !important;
+                            }
+                            }
+                            @media only screen and (max-width: 768px) {
+                                .ofmlMasage{
+                                    width: 300px;
+                                }                            
+                            }

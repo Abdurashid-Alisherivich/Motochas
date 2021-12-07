@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.catalog_pt {
+  padding: 40px 150px;
+}
+
+.catalog_menu_header p {
+  font-size: 12px;
+  font-weight: 550;
+  color: #999999 !important;
+  text-transform: uppercase;
+}
+
+.catalog_menu_header h4 {
+  font-size: 30px;
+  line-height: 110%;
+  font-weight: 600;
+  color: #000000;
+}
+
+.catalog_menu_bloc ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+}
+
+.catalog_menu_bloc ul li .catalog_ul_link {
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #000000;
+  cursor: pointer !important;
+}
+
+.catalog_menu_bloc ul li {
+  padding: 10px 0;
+}
+
+.catalog_menu_bloc ul li .catalog_ul_link:hover {
+  background: #FFC20E;
+  border-radius: 5px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.katalog-br {
+  display: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .catalog_pt {
+    padding: 40px 0px;
+  }
+  .katalog-div-free {
+    margin-top: 155px;
+  }
+}
+/*# sourceMappingURL=Katalog_menu.css.map */

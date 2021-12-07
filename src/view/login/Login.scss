@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main-card-login{
+    margin: 0 auto;
+    width: 700px !important;
+    
+    margin-top: 10%;
+    .loginEnter{
+        margin-left: 40%;
+        margin-top: 5%;
+        opacity: 0.5;
+       
+    }
+    .loginHr{
+        font-weight: 500;
+        height: 5px;
+        width: 25%;
+        margin-left: 36%;
+        color: goldenrod;
+        opacity: 1;
+       
+    }
+    .forLoginIcons{
+        position: relative;
+    }
+.loginIcon1{
+    position: absolute;
+    top: 10%;
+    font-size: 30px;
+    opacity: 0.5;
+    left: 2%;
+}
+
+    .loginInput{
+        width: 100% !important;
+        padding: 15px !important;
+        padding-left: 10% !important;
+       
+    } 
+    .loginIcon2{
+        position: absolute;
+        top: 70%;
+        font-size: 30px;
+        opacity: 0.5;
+        left: 2%;
+    }
+    .loginParol{
+        margin-left: 80%;
+        color: goldenrod;
+        text-decoration: unset;
+    }
+    .btn_rows{
+        button{
+            margin-left: 80px;
+        }
+    }
+    .my_order_btn{
+        border: 1px solid black;
+        border-radius: unset !important;
+        width: 100%;
+        padding: 3%;
+    }
+    .my_order_btn2{
+        background-color: rgb(233, 187, 71);
+        border-radius: unset !important;
+        width: 100%;
+        padding: 3%;
+    }
+    .loginFooterButtons{
+        margin-left: 6%;
+    }
+
+
+    .eyes {
+        position: absolute;
+        right: 25px;
+        font-size: 25px;
+        top: 100px;
+        opacity: 0.5;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .loginFooterButtons{
+            margin-left: 25%;
+        }
+
+      }
+}

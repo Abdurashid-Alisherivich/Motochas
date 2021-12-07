@@ -1,0 +1,213 @@
+.calcExcavatorWrapper{
+    margin-top: 4%;
+    .container{
+        .row{
+            .col-md-8{
+                .CalsOformlenaZakaz{
+                    color: #999999;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                    font-weight: 500;
+                }
+                .CalsRaschetArenda{
+                    color: #000000;
+                    font-size: 25px;
+                    font-weight: 500;
+                    margin-top: -30px;
+                }
+                .calsVremiya{
+                    color: #999999;
+                    text-transform: uppercase;
+                    font-size: 11px;
+                    font-weight: 500;
+                }
+                .CalsTotalLittleTxt{
+                    color: #555555;
+                    font-size: 12px;
+                    font-weight: normal;
+                }
+            }
+        }
+        .col-md-4{
+            .CalsCardStyle{
+                width: 350px;
+                height: 633px !important;
+                .card-body{
+                    .CalsImages{
+                        border: none !important;
+                        width: 171px;
+                        height: 102px;
+                    }
+                    .CalsEkskavatorR14{
+                        color: #000000;
+                        text-transform: uppercase;
+                        font-size: 17px;
+                        font-weight: 500;
+                    }
+                    .CalsTip{
+                        color: #999999;
+                        font-size: 12px;
+                    }
+                    .CalsKolesniy{
+                        margin-left: 45% !important;
+                        color: #333333;
+                        font-size: 13px;
+                    }
+                    .CalsKolesniyBottomTxt{
+                         margin-left: 19% !important;
+                        color: #333333;
+                        font-size: 13px;
+                    }
+                    .CalsTsenaNochno{
+                        color: #999999;
+                        font-size: 12px;
+                        margin-left: 33%;
+                    }
+                    .CalsSunIcon{
+                        color: #FFC20E;
+                    }
+                    .CalsSun70{
+                        color: #000000;
+                        font-size: 14px;
+                    }
+                    .CalsSunChas{
+                        color: #999999;
+                        font-size: 12px;
+                    }
+                    .CalsMoon{
+                        margin-left: 21%;
+                    }
+                    .CalsCounterStyle{
+                        border: 1px solid #999999;
+                        height: 72%;
+                        border-radius: 5%;
+                        justify-content: center;
+                        width: 100%;
+                        margin-left: 5%;
+                        cursor: pointer;
+                    }
+                    .CalsItemsStyle{
+                        margin-left: 5%;
+                        // margin-top: 5%;
+                        .CalsCounterPlus{
+                            color: #9C9C9C;
+                            font-size: 25px;
+                            font-weight: 300;
+                        }
+                        .CalsCounterResult{
+                            color: #333333;
+                            font-size: 14px;
+                            margin-top: 60%;
+                        }
+                    }
+                    .CalsGidromolot{
+                        color: #999999;
+                        font-size: 12px;
+                        .calsInputCheck{
+                            margin-top: 3%;
+                        }
+                    }
+                    .CalsSummarniSection{
+                        width: 110%;
+                        margin-top: 5%;
+                        height: 24%;
+                        background-color: #F9F9F9;
+                        margin-left: -5%;
+                        .CalsSummarno{
+                            margin-left: 5%;
+                            color: #333333;
+                            font-size: 13px;
+                            font-weight: 500;
+                        }
+                        .CalsTwoDnevniy{
+                            margin-left: 5%;
+                            color: #333333;
+                            font-size: 12px;
+                        }
+                        .CalsTwoNochno{
+                            color: #333333;
+                            font-size: 12px;
+                            margin-left: 35%;
+                        }
+                        .CalsSunIcon2{
+                            margin-left: 5%;
+                        }
+                        .Cals_sun_chas2{
+                            color: #333333;
+                            font-size: 14px;
+                        }
+                        .CalsHr{
+                            width: 90% !important;
+                            margin-left: 5%;
+                        }
+                        .CalsVsego{
+                            color: #333333;
+                            text-transform: uppercase;
+                            font-size: 15px;
+                            margin-left: 30%;
+                        }
+                        .CalsVsego15{
+                            color: #000000;
+                            font-size: 20px;
+                        }
+                        .CalsVsegoSum{
+                            color: #333333;
+                            font-size: 14px;
+                        }
+                    }
+                    .calsButton{
+                        margin-left: -5%;
+                        border-radius: unset !important;
+                        width: 110.3% !important;
+                        height: 50px !important;
+                    }
+                }
+
+            }
+        }
+        .CalsWhiteBtn{
+                    margin-left: 15%;
+                    color: #666666;
+                    font-size: 15px;
+                    width: 70%;
+                    height: 50px;
+                    margin-top: 7% !important;
+                    border: 1px solid #999999;
+        
+                    .CalsButtonPlus{
+                        color: #999999;
+                        font-size: 20px;
+                        margin-top: -200px !important;
+                    }
+                }
+                    .CalsLatestTxt{
+                        color: #999999;
+                        text-align: center;
+                        font-size: 11px;
+                        width: 70%;
+                        margin-left: 15%;
+                    }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+          .CalsLatestTxt{
+               color: #999999;
+               text-align: center;
+               font-size: 11px;
+               width: 180% !important;
+               margin-left: 15%;
+           }
+}
+@media only screen and (max-width: 600px) {
+    
+        .CalsWhiteBtnPhoneStyle{
+             margin-left: 15%;
+             color: #666666;
+             font-size: 15px;
+             width: 180% !important;
+             height: 50px;
+             margin-top: 35%;
+             border: 1px solid #999999;
+        }
+}

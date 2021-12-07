@@ -1,0 +1,169 @@
+.header-page {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 240px;
+}
+
+.header-page .header-page-two {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-page .header-page-two .home-title {
+  position: relative;
+  top: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 120%;
+  color: #FFC20E;
+}
+
+.header-page .header-page-two .home-icon-input .home-inp {
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  margin-top: 55px;
+  background-color: #FFFFFF;
+  width: 32%;
+  height: 50px;
+  font-weight: 400;
+  font-size: 14px;
+  border: 1px solid #E7E7E7;
+  padding-left: 1%;
+  outline: none;
+}
+
+.header-page .header-page-two .home-icon-input .icon-home {
+  position: relative;
+  bottom: 39px;
+  left: 1125px;
+  padding-bottom: 130px;
+  width: 0px;
+  color: #CDCDCD;
+  font-size: 18px;
+}
+
+.home-center-title {
+  margin-top: 100px;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: #000000;
+}
+
+.all-DifficultCards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.free-div {
+  height: 120px;
+}
+
+.littleHomeCards {
+  width: 145px;
+}
+
+.DifficultCards {
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home-inp {
+    width: 85% !important;
+  }
+  .icon-home {
+    left: 300px !important;
+  }
+  .home-difficult-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.HomeCardIMages11 {
+  border: none !important;
+  height: 91px !important;
+}
+
+.bunyodCradText {
+  margin-left: 10px !important;
+  font-family: Roboto !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  line-height: 100% !important;
+  text-align: center;
+  color: #000000 !important;
+}
+
+.toflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.toflex .simpleCard {
+  width: 255px;
+  background-color: #f9f9f9;
+  height: 255px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 2  5px;
+}
+
+.toflex .simpleCard .simpleCard_name {
+  margin-top: 20px;
+  margin-left: 15px;
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+}
+
+.toflex .simpleCard .simpleCard_title {
+  font-weight: 400px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  color: #555555;
+  margin-left: 15px;
+  line-height: 20px;
+}
+
+.toflex .simpleCard .img_position {
+  margin: 10px 0 10px 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .simpleCard {
+    width: 240px;
+    margin-top: 30px;
+    margin-left: 55px !important;
+  }
+}
+/*# sourceMappingURL=home.css.map */

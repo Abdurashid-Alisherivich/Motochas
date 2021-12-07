@@ -1,0 +1,203 @@
+.calcTipperWrapper{
+    .container{
+        .row{
+            .col-sm-8{
+                .tipperOformlena{
+                    color: #999999;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                    font-weight: 500;
+                }
+                .tipperRaschet{
+                    color: #000000;
+                    font-size: 28px;
+                    font-weight: 500;
+                }
+                .tipperCalsData{
+                    margin-top: 5% !important;
+                }
+                .tipper_calsData2{
+                    margin-top: 5% !important;
+                }
+                .tipperBasicRow{
+                    margin-top: 4%;
+                    .col-md-5{
+                        .tipperSpuchie{
+                                color: #333333;
+                                font-size: 14px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+     .col-md-4{
+            .CalsCardStyleNew{
+                width: 350px;
+                height: 588px !important;
+                .card-body{
+                    .CalsImages{
+                        border: none !important;
+                        width: 171px;
+                        height: 102px;
+                    }
+                    .CalsEkskavatorR14{
+                        color: #000000;
+                        text-transform: uppercase;
+                        font-size: 17px;
+                        font-weight: 500;
+                    }
+                    .CalsTip{
+                        color: #999999;
+                        font-size: 12px;
+                    }
+                    .CalsKolesniy77{
+                        margin-left: 15% !important;
+                        color: #333333;
+                        font-size: 13px;
+                    }
+                    .CalsKolesniyBottomTxt77{
+                         margin-left: 37% !important;
+                        color: #333333;
+                        font-size: 13px;
+                    }
+                    .CalsTsenaNochno77{
+                        color: #999999;
+                        font-size: 12px;
+                        margin-left: 40%;
+                    }
+                    .CalsSummarniSectionNew{
+                        width: 110%;
+                        margin-top: 5%;
+                        height: 5%;
+                        background-color: #F9F9F9;
+                        margin-left: -5%;
+                        .CalsSummarno{
+                            margin-left: 5%;
+                            color: #333333;
+                            font-size: 13px;
+                            font-weight: 500;
+                        }
+                        .CalsTwoDnevniy{
+                            margin-left: 5%;
+                            color: #333333;
+                            font-size: 12px;
+                        }
+                        .CalsTwoNochno{
+                            color: #333333;
+                            font-size: 12px;
+                            margin-left: 35%;
+                        }
+                        .CalsSunIcon2{
+                            margin-left: 5%;
+                        }
+                        .CalsHr{
+                            width: 90% !important;
+                            margin-left: 5%;
+                        }
+                        .CalsVsego{
+                            color: #333333;
+                            text-transform: uppercase;
+                            font-size: 15px;
+                            margin-left: 30%;
+                        }
+                        .CalsVsego15{
+                            color: #000000;
+                            font-size: 20px;
+                        }
+                        .CalsVsegoSum{
+                            color: #333333;
+                            font-size: 14px;
+                        }
+                    }
+                    .calsButton{
+                        margin-left: -5%;
+                        border-radius: unset !important;
+                        width: 110.3% !important;
+                        height: 50px !important;
+                    }
+                }
+
+            }
+        }
+        .CalsWhiteBtn{
+                    margin-left: 15%;
+                    color: #666666;
+                    font-size: 15px;
+                    width: 70%;
+                    height: 50px;
+                    margin-top: 5% !important;
+                    border: 1px solid #999999;
+        
+                    .CalsButtonPlus{
+                        color: #999999;
+                        font-size: 20px;
+                        margin-top: -200px !important;
+                    }
+                }
+                    .CalsLatestTxt{
+                        color: #999999;
+                        text-align: center;
+                        font-size: 11px;
+                        width: 70%;
+                        margin-left: 15%;
+                    }
+}
+
+// counter
+.tipperCount2{
+    margin-left: 5% !important;
+    cursor: pointer;
+    height: 70% !important;
+    width: 80% !important;
+    border: 1px solid #999999;
+}
+.tipperCount3{
+    margin-left: -5% !important;
+    cursor: pointer;
+    height: 70% !important;
+    width: 80% !important;
+    border: 1px solid #999999;
+}
+.CalsCounterPlusMain{
+ color: #9C9C9C;
+ margin-top: 5%;
+    font-size: 16px;
+    font-weight: 300;
+}
+.CalsCounterResult7{
+color: #333333;
+font-size: 14px;
+}
+.CalsItemsStyle7{
+    text-align: center;
+    margin-top: 3% !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .tipperCount2{
+    margin-left: 0% !important;
+    cursor: pointer;
+    height: 70% !important;
+    width: 40% !important;
+    border: 1px solid #999999;
+}
+.tipperCount3{
+    cursor: pointer;
+    margin-top: -50px !important;
+    margin-left: 50% !important;
+    cursor: pointer;
+    height: 70% !important;
+    width: 40% !important;
+    border: 1px solid #999999;
+}
+}
+
+.tipperCountLatest{
+    cursor: pointer;
+    border: 1px solid #999999;
+}
+.CalsCounterResultLatest{
+    margin-top: 3%;
+}

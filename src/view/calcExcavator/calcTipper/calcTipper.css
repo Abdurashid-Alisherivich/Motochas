@@ -1,0 +1,216 @@
+.calcTipperWrapper .container .row .col-sm-8 .tipperOformlena {
+  color: #999999;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.calcTipperWrapper .container .row .col-sm-8 .tipperRaschet {
+  color: #000000;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.calcTipperWrapper .container .row .col-sm-8 .tipperCalsData {
+  margin-top: 5% !important;
+}
+
+.calcTipperWrapper .container .row .col-sm-8 .tipper_calsData2 {
+  margin-top: 5% !important;
+}
+
+.calcTipperWrapper .container .row .col-sm-8 .tipperBasicRow {
+  margin-top: 4%;
+}
+
+.calcTipperWrapper .container .row .col-sm-8 .tipperBasicRow .col-md-5 .tipperSpuchie {
+  color: #333333;
+  font-size: 14px !important;
+}
+
+.calcTipperWrapper .col-md-4 .CalsCardStyleNew {
+  width: 350px;
+  height: 588px !important;
+}
+
+.calcTipperWrapper .col-md-4 .CalsCardStyleNew .card-body .CalsImages {
+  border: none !important;
+  width: 171px;
+  height: 102px;
+}
+
+.calcTipperWrapper .col-md-4 .CalsCardStyleNew .card-body .CalsEkskavatorR14 {
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.calcTipperWrapper .col-md-4 .CalsCardStyleNew .card-body .CalsTip {
+  color: #999999;
+  font-size: 12px;
+}
+
+.calcTipperWrapper .col-md-4 .CalsCardStyleNew .card-body .CalsKolesniy77 {
+  margin-left: 15% !important;
+  color: #333333;
+  font-size: 13px;
+}
+
+.calcTipperWrapper .col-md-4 .CalsCardStyleNew .card-body .CalsKolesniyBottomTxt77 {
+  margin-left: 37% !important;
+  color: #333333;
+  font-size: 13px;
+}
+
+.calcTipperWrapper .col-md-4 .CalsCardStyleNew .card-body .CalsTsenaNochno77 {
+  color: #999999;
+  font-size: 12px;
+  margin-left: 40%;
+}
+
+.calcTipperWrapper .col-md-4 .CalsCardStyleNew .card-body .CalsSummarniSectionNew {
+  width: 110%;
+  margin-top: 5%;
+  height: 5%;
+  background-color: #F9F9F9;
+  margin-left: -5%;
+}
+
+.calcTipperWrapper .col-md-4 .CalsCardStyleNew .card-body .CalsSummarniSectionNew .CalsSummarno {
+  margin-left: 5%;
+  color: #333333;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.calcTipperWrapper .col-md-4 .CalsCardStyleNew .card-body .CalsSummarniSectionNew .CalsTwoDnevniy {
+  margin-left: 5%;
+  color: #333333;
+  font-size: 12px;
+}
+
+.calcTipperWrapper .col-md-4 .CalsCardStyleNew .card-body .CalsSummarniSectionNew .CalsTwoNochno {
+  color: #333333;
+  font-size: 12px;
+  margin-left: 35%;
+}
+
+.calcTipperWrapper .col-md-4 .CalsCardStyleNew .card-body .CalsSummarniSectionNew .CalsSunIcon2 {
+  margin-left: 5%;
+}
+
+.calcTipperWrapper .col-md-4 .CalsCardStyleNew .card-body .CalsSummarniSectionNew .CalsHr {
+  width: 90% !important;
+  margin-left: 5%;
+}
+
+.calcTipperWrapper .col-md-4 .CalsCardStyleNew .card-body .CalsSummarniSectionNew .CalsVsego {
+  color: #333333;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-left: 30%;
+}
+
+.calcTipperWrapper .col-md-4 .CalsCardStyleNew .card-body .CalsSummarniSectionNew .CalsVsego15 {
+  color: #000000;
+  font-size: 20px;
+}
+
+.calcTipperWrapper .col-md-4 .CalsCardStyleNew .card-body .CalsSummarniSectionNew .CalsVsegoSum {
+  color: #333333;
+  font-size: 14px;
+}
+
+.calcTipperWrapper .col-md-4 .CalsCardStyleNew .card-body .calsButton {
+  margin-left: -5%;
+  border-radius: unset !important;
+  width: 110.3% !important;
+  height: 50px !important;
+}
+
+.calcTipperWrapper .CalsWhiteBtn {
+  margin-left: 15%;
+  color: #666666;
+  font-size: 15px;
+  width: 70%;
+  height: 50px;
+  margin-top: 5% !important;
+  border: 1px solid #999999;
+}
+
+.calcTipperWrapper .CalsWhiteBtn .CalsButtonPlus {
+  color: #999999;
+  font-size: 20px;
+  margin-top: -200px !important;
+}
+
+.calcTipperWrapper .CalsLatestTxt {
+  color: #999999;
+  text-align: center;
+  font-size: 11px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.tipperCount2 {
+  margin-left: 5% !important;
+  cursor: pointer;
+  height: 70% !important;
+  width: 80% !important;
+  border: 1px solid #999999;
+}
+
+.tipperCount3 {
+  margin-left: -5% !important;
+  cursor: pointer;
+  height: 70% !important;
+  width: 80% !important;
+  border: 1px solid #999999;
+}
+
+.CalsCounterPlusMain {
+  color: #9C9C9C;
+  margin-top: 5%;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.CalsCounterResult7 {
+  color: #333333;
+  font-size: 14px;
+}
+
+.CalsItemsStyle7 {
+  text-align: center;
+  margin-top: 3% !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .tipperCount2 {
+    margin-left: 0% !important;
+    cursor: pointer;
+    height: 70% !important;
+    width: 40% !important;
+    border: 1px solid #999999;
+  }
+  .tipperCount3 {
+    cursor: pointer;
+    margin-top: -50px !important;
+    margin-left: 50% !important;
+    cursor: pointer;
+    height: 70% !important;
+    width: 40% !important;
+    border: 1px solid #999999;
+  }
+}
+
+.tipperCountLatest {
+  cursor: pointer;
+  border: 1px solid #999999;
+}
+
+.CalsCounterResultLatest {
+  margin-top: 3%;
+}
+/*# sourceMappingURL=calcTipper.css.map */

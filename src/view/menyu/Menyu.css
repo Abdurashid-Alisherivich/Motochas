@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.header {
+  height: 80px;
+  background-color: #FFC20E;
+  z-index: 10000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow-y: hidden;
+}
+
+.header .nav_overflow {
+  display: none;
+}
+
+.header .menu {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.header .menu .res_menu {
+  display: none;
+}
+
+.header .menu .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .menu .logo .log svg {
+  height: 50.4900016784668px;
+  width: 136.68589782714844px;
+  left: 245px;
+  top: 16px;
+  border-radius: 0px;
+}
+
+.header .menu .logo .province {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 30px;
+}
+
+.header .menu .logo .province a {
+  display: block;
+  -webkit-text-decoration: inline;
+          text-decoration: inline;
+  width: 125px;
+  height: 17px;
+  left: calc(50% - 125px/2 - 269.5px);
+  top: 32px;
+  margin: 0 5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 16px;
+  color: #262626;
+}
+
+.header .menu .menyu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .menu .menyu .togle {
+  display: none;
+  cursor: pointer;
+  padding: 2px;
+}
+
+.header .menu .menyu ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+.header .menu .menyu ul li a {
+  width: 32px;
+  height: 14px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 100%;
+  color: #262626;
+  padding: 0px 0px 0px 31px;
+}
+
+.header .menu .menyu .korzinka a {
+  width: 23px;
+  height: 23px;
+  text-decoration: none;
+  margin: 0px 25px 0px 40px !important;
+}
+
+.header .menu .res_menu {
+  display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header .nav_overflow {
+    display: none;
+  }
+  .header .menu {
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header .menu .res_menu {
+    display: none;
+  }
+  .header .menu .logo {
+    padding: 0;
+  }
+  .header .menu .logo .province {
+    margin: 0px 10px;
+  }
+  .header .menu .logo .province a {
+    font-size: 13px;
+  }
+  .header .menu .menyu ul {
+    padding: 0;
+    margin: 0 !important;
+  }
+  .header .menu .menyu ul li {
+    padding: 0;
+  }
+  .header .menu .menyu ul li a {
+    padding: 0px 0px 0px 15px;
+    font-size: 13px;
+  }
+  .header .menu .menyu .korzinka a svg {
+    font-size: 10px;
+    width: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 0 25px;
+    overflow-x: hidden;
+  }
+  .header .menu .logo .province {
+    display: none;
+  }
+  .header .menu .menyu ul {
+    display: none;
+  }
+  .header .menu .menyu .togle {
+    display: block;
+  }
+  .header .menu .res_menu {
+    display: block;
+    position: fixed;
+    background-color: #222222;
+    -webkit-transform: translateX(105%);
+            transform: translateX(105%);
+    top: 0;
+    right: 0;
+    width: 80%;
+    height: 100vh;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 5000;
+  }
+  .header .menu .res_menu ul {
+    display: block;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .header .menu .res_menu ul li {
+    position: relative;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    list-style: none;
+    border-bottom: 1px solid #2D2D2D;
+    padding: 0px 0px !important;
+    margin: 0 !important;
+  }
+  .header .menu .res_menu ul li p {
+    line-height: 17px;
+    height: 60px;
+  }
+  .header .menu .res_menu ul li a {
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    height: 60px;
+    color: #E2E2E2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0px 28px 0px 65px;
+    font-style: normal;
+    line-height: 17px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    position: relative;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    overflow: hidden;
+  }
+  .header .menu .res_menu ul li a span {
+    position: absolute;
+    left: 28px;
+  }
+  .header .menu .res_menu ul li a h4 svg {
+    position: absolute;
+    color: #555555;
+    right: 10%;
+  }
+  .header .nav_overflow {
+    display: block;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.15);
+    z-index: 2000;
+    -webkit-transform: translateX(105%);
+            transform: translateX(105%);
+  }
+}
+/*# sourceMappingURL=Menyu.css.map */

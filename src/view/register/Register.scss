@@ -1,0 +1,129 @@
+.toFlex{
+    justify-content: center;
+    margin:0 auto;
+    width: 1060px
+    ;
+    .hero-text{
+        font-size: 10px;
+        opacity: 0.8;
+      
+        }
+        .first-input{
+            padding: 5px;
+            width: 300px; 
+           
+        }
+        .first-inputs{
+            margin-top: 20px;
+       
+        }
+        .btn-inputs{
+            margin-top: 20px;
+       
+        }
+        .option-inputs{
+            margin-top: 20px;
+       
+        }
+        .my-form{
+            padding: 5px;
+            width: 300px ; 
+            
+        }
+        .my-yellow-btn{
+            border: 1px solid rgb(240, 191, 70);
+            padding: 5px;
+            width: 300px ; 
+            background-color: #fff;
+        }
+        .long-input{
+            padding: 5px;
+            width: 684px;
+        }
+        .my-midle{
+            margin-top: 60px;
+            width: 740px;
+        }
+        .for-input-position{
+            margin-top: 40px;
+        }
+        .message-input{
+            height: 150px;
+        }
+        .input-comment{
+            margin-top: 40px;
+            .message-input{
+                width: 684px;
+            }
+        }
+        .my-hr{
+            margin-top: 60px;
+        }
+        .icon-footer{
+            margin: 0 auto;
+            width: 700px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+        .btn_rows{
+            button{
+                margin-left: 80px;
+            }
+        }
+        .my_order_btn{
+            border: 1px solid black;
+            border-radius: unset !important;
+        }
+        .my_order_btn2{
+            background-color: rgb(233, 187, 71);
+            border-radius: unset !important;
+        }
+}
+@media only screen and (max-width: 600px) {
+        .toFlex{
+            margin: 0 auto;
+            width: 320px !important;
+        }
+        .long-input{
+            width: 300px !important; 
+        }
+        .my-midle{
+            margin-top: 20px !important;
+            width: 200px !important;
+        }
+        .for-input-position{
+            margin-top: 20px !important;
+        }
+        .btn-inputs{
+            margin-top: 20px !important;
+        }
+        .option-inputs{
+            margin-top: 20px !important;
+        }
+        .first-inputs{
+            margin-top: 20px !important;
+        }
+        .message-input{
+            width: 300px !important;
+        }
+        .my-hr{
+            width: 280px;
+        }
+        .icon-footer{
+            margin: 0 auto;
+            width: 300px !important;
+            display: unset !important;
+        }
+        .last-input{
+            margin-top: 20px;
+        }
+        .my_order_btn2{
+            width: 152px;
+        }
+        .btn_rows{
+            button{
+                margin-left: 0px!important;
+            }
+        }
+    }

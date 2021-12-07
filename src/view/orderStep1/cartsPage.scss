@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footerLine {
+    width: 100%;
+    height: 2px;
+    background: fixed;
+    background-color: #F3F3F3;
+}
+
+.roboto400 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400 !important;
+}
+
+.roboto500 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.grayText {
+    color: #999999;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.addedCarts {
+    background-color: #F9F9F9;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .cardSize {
+        max-width: 48%;
+    }
+
+    .deleteCart {
+        outline: none;
+        background-color: unset;
+        border: 2px solid rgb(221, 220, 220);
+        padding: 10px 50px;
+        font-size: 13px;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .addAndDec {
+        height: 60px;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+        border-collapse: collapse;
+    }
+}
+
+.totalTextBtn {
+    margin: 10px;
+
+    .totalPrice {
+        text-align: right;
+        margin: 50px 0;
+
+        .priceNum {
+            color: #FFC20E;
+            margin-left: 5px;
+        }
+    }
+
+    .confirBtn {
+        margin: 50px 0 20px 0;
+        text-align: right;
+
+        .yellowBtnMin {
+            background-color: #FFC20E;
+            outline: none;
+            padding: 15px 19px;
+            align-items: center;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .deleteCart {
+        font-size: 8px !important;
+        padding: 3% 25px !important;
+    }
+
+    .titleCard {
+        font-size: 14px;
+    }
+
+    .fSize-8 {
+        font-size: 12px;
+    }
+
+    .addAndDec {
+        height: 50px !important;
+        font-size: unset !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .cardSize {
+        max-width: 600px !important;
+        margin: 0 auto;
+    }
+
+    .deleteCart {
+        font-size: 13px !important;
+        padding: 10px 50px !important;
+    }
+
+    .titleCard {
+        font-size: unset;
+    }
+
+    .fSize-8 {
+        font-size: unset;
+    }
+
+    .addAndDec {
+        height: 60px !important;
+        font-size: 25px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .respMargin {
+        margin-top: 10px;
+    }
+
+    .deleteCart {
+        font-size: 8px !important;
+    }
+
+    .titleCard {
+        font-size: 14px;
+    }
+
+    .fSize-8 {
+        font-size: 12px;
+    }
+
+    .addAndDec {
+        height: 50px !important;
+        font-size: unset !important;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .addAndDec {
+        width: 80%;
+    }
+
+    .respMargin {
+        margin-top: 10px;
+    }
+
+    .deleteCart {
+        font-size: 10px !important;
+        padding: 5px 20px !important;
+    }
+}

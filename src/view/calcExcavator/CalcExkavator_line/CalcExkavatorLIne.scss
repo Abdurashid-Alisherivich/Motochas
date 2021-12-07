@@ -1,0 +1,248 @@
+.calcExcavatorLineBasicRange{
+    margin-left: 83px;
+    margin-top: -18px;
+}
+.rc-slider{
+    width: 545px !important;
+    height: 4px !important;
+}
+.clacExcavatorLineMaya{
+    color: #999999;
+    font-family: Roboto;
+}
+.calcExcavatorLineNumber{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 100%;
+/* identical to box height, or 11px */
+
+letter-spacing: 0.3em;
+color: #D0D0D0;
+}
+.rc-slider-track {
+    position: absolute;
+    left: 0;
+    height: 4px;
+    border-radius: 6px;
+     background: linear-gradient(
+270deg, #555555 56.59%, #FFC20E 56.8%) !important;
+    border-radius: 14px !important;
+}
+.rc-slider-handle {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    cursor: -webkit-grab;
+    margin-top: -5px;
+    cursor: grab;
+    border-radius: 50%;
+    border: solid 2px #FFC20E !important;
+    background-color: #fff;
+    touch-action: pan-x;
+}
+.rc-slider-handle:active {
+    border-color: #FFC20E !important;
+    box-shadow: 0 0 5px #FFC20E !important;
+    cursor: grabbing;
+}
+// .asssosiyBAsic{
+//     margin-top: -50px;
+// }
+@media only screen and (max-width: 600px) {
+
+.rc-slider{
+    width: 0 !important;
+    height: 0 !important;
+}
+.calcExcavatorLineNumber{
+font-size: 0 !important;
+line-height: 0 !important;
+/* identical to box height, or 11px */
+
+letter-spacing: 0;
+
+color: #D0D0D0;
+}
+.clacExcavatorLineMaya{
+    color: #999999;
+    font-family: Roboto;
+    font-size: 0px;
+}
+.rc-slider-handle {
+    width: 0 !important;
+    height: 0 !important;
+    border:0px !important;
+}
+.clacExcavatorLineMaya{
+   font-size: 0 !important;
+}
+.calcExcavatorLineNumber{
+font-size: -5px !important;
+line-height: 0 !important;
+}
+.calcExcavator25{
+    font-size: 0 !important ;
+}
+}
+
+// Phone format section
+
+.phoneFprmat25{
+    font-size: 0 !important;
+}
+.phoneFormatMaya{
+    font-size: 0 !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .calcExcavatorPhone{
+      margin-top: -38px !important;
+      width: 356px !important;
+      height: 50px !important;
+      background: #FDFDFD;
+      border: 1px solid #E6E6E6;
+      box-sizing: border-box;
+  }
+  .phoneFprmat25{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px !important;
+    line-height: 100%;
+    margin-left: 30px;
+    margin-top: 16px;
+}
+.phoneFormatMaya{
+      font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px !important;
+    line-height: 100%;
+    margin-left: 60px;
+    margin-top: -34px;
+    color: #999999;
+}
+  .verticalLine{
+    height: 50px;
+    width: 1px !important;
+    background-color: #999999;
+    margin-top: -50px;
+    margin-left: 125px;
+}
+.PhoneFormtaC{
+    margin-left: 135px;
+    margin-top: -48px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    visibility: visible !important;
+    /* identical to box height, or 16px */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #999999;
+}
+.PhoneFormat10{
+    visibility: visible !important;
+    margin-left: 155px;
+    margin-top: -35px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+    display: flex;
+    align-items: flex-end;
+    text-transform: uppercase;
+
+    color: #333333;
+
+}
+.PhoneFormtaIo{
+    visibility: visible !important;
+    margin-left: 10px;
+    color: #999999;
+}
+ .verticalLine2{
+    height: 49px;
+    width: 1px !important;
+    background-color: #999999;
+    margin-top: -51px;
+    margin-left: 250px;
+}
+.PhoneFormatDo{
+    visibility: hidden !important;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+
+    display: flex;
+    align-items: center;
+
+    color: #999999;
+    margin-left: 260px;
+    margin-top: -45px;
+}
+.PhoneFormat16{
+    margin-left: 272px;
+    margin-top: -33px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+    display: flex;
+    align-items: flex-end;
+    text-transform: uppercase;
+
+    color: #333333;
+}
+
+.PhoneFormtaC{
+    display: flex!important;
+}
+.PhoneFormat10{
+    display: flex!important;
+}
+.PhoneFormtaIo{
+    display: flex!important;
+}
+.PhoneFormatDo{
+    display: flex!important;
+}
+.PhoneFormat16{
+    display: flex!important;
+}
+
+}
+
+
+.PhoneFormtaC{
+    display: none;
+}
+.PhoneFormat10{
+    display: none;
+}
+.PhoneFormtaIo{
+    display: none;
+}
+.PhoneFormatDo{
+    display: none;
+}
+.PhoneFormat16{
+    display: none;
+}

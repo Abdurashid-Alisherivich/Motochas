@@ -1,0 +1,238 @@
+.calcExcavatorWrapper {
+  margin-top: 4%;
+}
+
+.calcExcavatorWrapper .container .row .col-md-8 .CalsOformlenaZakaz {
+  color: #999999;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.calcExcavatorWrapper .container .row .col-md-8 .CalsRaschetArenda {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: -30px;
+}
+
+.calcExcavatorWrapper .container .row .col-md-8 .calsVremiya {
+  color: #999999;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.calcExcavatorWrapper .container .row .col-md-8 .CalsTotalLittleTxt {
+  color: #555555;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle {
+  width: 350px;
+  height: 633px !important;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .CalsImages {
+  border: none !important;
+  width: 171px;
+  height: 102px;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .CalsEkskavatorR14 {
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .CalsTip {
+  color: #999999;
+  font-size: 12px;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .CalsKolesniy {
+  margin-left: 45% !important;
+  color: #333333;
+  font-size: 13px;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .CalsKolesniyBottomTxt {
+  margin-left: 19% !important;
+  color: #333333;
+  font-size: 13px;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .CalsTsenaNochno {
+  color: #999999;
+  font-size: 12px;
+  margin-left: 33%;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .CalsSunIcon {
+  color: #FFC20E;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .CalsSun70 {
+  color: #000000;
+  font-size: 14px;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .CalsSunChas {
+  color: #999999;
+  font-size: 12px;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .CalsMoon {
+  margin-left: 21%;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .CalsCounterStyle {
+  border: 1px solid #999999;
+  height: 72%;
+  border-radius: 5%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin-left: 5%;
+  cursor: pointer;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .CalsItemsStyle {
+  margin-left: 5%;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .CalsItemsStyle .CalsCounterPlus {
+  color: #9C9C9C;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .CalsItemsStyle .CalsCounterResult {
+  color: #333333;
+  font-size: 14px;
+  margin-top: 60%;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .CalsGidromolot {
+  color: #999999;
+  font-size: 12px;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .CalsGidromolot .calsInputCheck {
+  margin-top: 3%;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .CalsSummarniSection {
+  width: 110%;
+  margin-top: 5%;
+  height: 24%;
+  background-color: #F9F9F9;
+  margin-left: -5%;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .CalsSummarniSection .CalsSummarno {
+  margin-left: 5%;
+  color: #333333;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .CalsSummarniSection .CalsTwoDnevniy {
+  margin-left: 5%;
+  color: #333333;
+  font-size: 12px;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .CalsSummarniSection .CalsTwoNochno {
+  color: #333333;
+  font-size: 12px;
+  margin-left: 35%;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .CalsSummarniSection .CalsSunIcon2 {
+  margin-left: 5%;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .CalsSummarniSection .Cals_sun_chas2 {
+  color: #333333;
+  font-size: 14px;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .CalsSummarniSection .CalsHr {
+  width: 90% !important;
+  margin-left: 5%;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .CalsSummarniSection .CalsVsego {
+  color: #333333;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-left: 30%;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .CalsSummarniSection .CalsVsego15 {
+  color: #000000;
+  font-size: 20px;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .CalsSummarniSection .CalsVsegoSum {
+  color: #333333;
+  font-size: 14px;
+}
+
+.calcExcavatorWrapper .container .col-md-4 .CalsCardStyle .card-body .calsButton {
+  margin-left: -5%;
+  border-radius: unset !important;
+  width: 110.3% !important;
+  height: 50px !important;
+}
+
+.calcExcavatorWrapper .container .CalsWhiteBtn {
+  margin-left: 15%;
+  color: #666666;
+  font-size: 15px;
+  width: 70%;
+  height: 50px;
+  margin-top: 7% !important;
+  border: 1px solid #999999;
+}
+
+.calcExcavatorWrapper .container .CalsWhiteBtn .CalsButtonPlus {
+  color: #999999;
+  font-size: 20px;
+  margin-top: -200px !important;
+}
+
+.calcExcavatorWrapper .container .CalsLatestTxt {
+  color: #999999;
+  text-align: center;
+  font-size: 11px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+@media only screen and (max-width: 600px) {
+  .CalsLatestTxt {
+    color: #999999;
+    text-align: center;
+    font-size: 11px;
+    width: 180% !important;
+    margin-left: 15%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .CalsWhiteBtnPhoneStyle {
+    margin-left: 15%;
+    color: #666666;
+    font-size: 15px;
+    width: 180% !important;
+    height: 50px;
+    margin-top: 35%;
+    border: 1px solid #999999;
+  }
+}
+/*# sourceMappingURL=calcExcavator.css.map */

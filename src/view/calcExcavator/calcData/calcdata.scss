@@ -1,0 +1,234 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+.calcDate_basic {
+    width: 550px;
+    // border: 1px solid #E7E7E7;
+}
+
+.e-input-group {
+    height: 40px;
+    background: #FFFFFF !important;
+    border: 1px solid #E7E7E7 !important;
+    box-sizing: border-box !important;
+}
+
+.CalcDate_hr {
+    width: 20px;
+    margin-left: 178px;
+    margin-top: -25px;
+}
+
+.calcLocation_text_first {
+    margin-left: -5px !important;
+}
+
+.calcLocationText_two {
+    margin-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+
+    .calcDate_basic {
+        width: 350px;
+    }
+
+    .CalcDate_hr {
+        height: 0px !important;
+        width: 0px !important;
+    }
+
+    .calcLocation_text_first {
+        margin-left: 0px !important;
+    }
+
+    .calcLocationText_two {
+        margin-left: 0px;
+    }
+}
+
+
+.e-input-group:not(.e-float-icon-left):not(.e-float-input)::before,
+.e-input-group:not(.e-float-icon-left):not(.e-float-input)::after,
+.e-input-group.e-float-icon-left:not(.e-float-input) .e-input-in-wrap::before,
+.e-input-group.e-float-icon-left:not(.e-float-input) .e-input-in-wrap::after,
+.e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input)::before,
+.e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input)::after,
+.e-input-group.e-control-wrapper.e-float-icon-left:not(.e-float-input) .e-input-in-wrap::before,
+.e-input-group.e-control-wrapper.e-float-icon-left:not(.e-float-input) .e-input-in-wrap::after {
+    background: #FFC20E !important;
+}
+
+.e-input-group:not(.e-success):not(.e-warning):not(.e-error):not(.e-float-icon-left),
+.e-input-group.e-float-icon-left:not(.e-success):not(.e-warning):not(.e-error) .e-input-in-wrap,
+.e-input-group.e-control-wrapper:not(.e-success):not(.e-warning):not(.e-error):not(.e-float-icon-left),
+.e-input-group.e-control-wrapper.e-float-icon-left:not(.e-success):not(.e-warning):not(.e-error) .e-input-in-wrap,
+.e-float-input.e-float-icon-left:not(.e-success):not(.e-warning):not(.e-error) .e-input-in-wrap,
+.e-float-input.e-control-wrapper.e-float-icon-left:not(.e-success):not(.e-warning):not(.e-error) .e-input-in-wrap {
+    border: 1px solid #E7E7E7 !important;
+}
+
+.calcLocaion {
+    width: 250px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+}
+
+.calcLocationTxt {
+    margin-top: 5px !important;
+    margin-left: 10px;
+}
+
+.calcLocation_icon {
+    font-size: 20px;
+}
+
+.e-input-group-icon.e-date-icon::before,
+*.e-control-wrapper .e-input-group-icon.e-date-icon::before {
+    margin-right: 10px;
+
+}
+
+.e-input-group-icon.e-date-icon::before,
+*.e-control-wrapper .e-input-group-icon.e-date-icon::before :hover {
+    margin-right: 10px;
+    color: green !important;
+}
+
+.e-time-wrapper .e-time-icon.e-icons::before,
+*.e-control-wrapper.e-time-wrapper .e-time-icon.e-icons::before {
+    margin-right: 10px;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .e-input-group:not(.e-success):not(.e-warning):not(.e-error):not(.e-float-icon-left),
+    .e-input-group.e-float-icon-left:not(.e-success):not(.e-warning):not(.e-error) .e-input-in-wrap,
+    .e-input-group.e-control-wrapper:not(.e-success):not(.e-warning):not(.e-error):not(.e-float-icon-left),
+    .e-input-group.e-control-wrapper.e-float-icon-left:not(.e-success):not(.e-warning):not(.e-error) .e-input-in-wrap,
+    .e-float-input.e-float-icon-left:not(.e-success):not(.e-warning):not(.e-error) .e-input-in-wrap,
+    .e-float-input.e-control-wrapper.e-float-icon-left:not(.e-success):not(.e-warning):not(.e-error) .e-input-in-wrap {
+        border: 1px solid #E7E7E7 !important;
+        width: 325px !important;
+    }
+
+    .e-input-group-icon.e-date-icon::before,
+    *.e-control-wrapper .e-input-group-icon.e-date-icon::before {
+        color: #FFC20E;
+        font-size: 30px;
+
+    }
+
+    .e-time-wrapper .e-time-icon.e-icons::before,
+    *.e-control-wrapper.e-time-wrapper .e-time-icon.e-icons::before {
+        color: #FFC20E;
+        font-size: 30px;
+
+    }
+
+    .calcLocaion {
+        width: 325px !important;
+        height: 45px;
+        background: #FFFFFF;
+        border: 1px solid #E7E7E7;
+        box-sizing: border-box;
+    }
+
+    .calcLocation_icon {
+        margin-left: 13px;
+        font-size: 30px;
+        color: #FFC20E;
+    }
+
+    input.e-input,
+    .e-input-group input.e-input,
+    .e-input-group input,
+    .e-input-group.e-control-wrapper input.e-input,
+    .e-input-group.e-control-wrapper input,
+    .e-float-input input.e-input,
+    .e-float-input input,
+    .e-float-input.e-control-wrapper input.e-input,
+    .e-float-input.e-control-wrapper input,
+    .e-input-group input.e-input:focus,
+    .e-input-group.e-control-wrapper input.e-input:focus,
+    .e-float-input.e-control-wrapper input:focus,
+    .e-float-input input:focus,
+    .e-input-group.e-input-focus input.e-input,
+    .e-input-group.e-control-wrapper.e-input-focus input.e-input,
+    .e-float-input.e-control-wrapper.e-input-focus input,
+    .e-float-input.e-input-focus input {
+        padding-left: 80px !important;
+        text-indent: 0;
+        background: #FDFDFD;
+    }
+
+    .e-input-group .e-input-group-icon:last-child,
+    .e-input-group.e-bigger .e-input-group-icon:last-child,
+    .e-input-group .e-input-group-icon.e-bigger:last-child,
+    .e-bigger .e-input-group .e-input-group-icon:last-child,
+    .e-input-group.e-small .e-input-group-icon:last-child,
+    .e-input-group.e-small.e-bigger .e-input-group-icon:last-child,
+    .e-input-group.e-small .e-input-group-icon.e-bigger:last-child,
+    .e-input-group.e-control-wrapper .e-input-group-icon:last-child,
+    .e-input-group.e-control-wrapper.e-bigger .e-input-group-icon:last-child,
+    .e-input-group.e-control-wrapper .e-input-group-icon.e-bigger:last-child,
+    .e-input-group.e-control-wrapper.e-small .e-input-group-icon:last-child,
+    .e-input-group.e-control-wrapper.e-small.e-bigger .e-input-group-icon:last-child,
+    .e-input-group.e-control-wrapper.e-small .e-input-group-icon.e-bigger:last-child,
+    .e-bigger .e-input-group.e-control-wrapper.e-small .e-input-group-icon:last-child,
+    .e-bigger .e-input-group.e-small .e-input-group-icon:last-child {
+        margin-right: 80px;
+        background: #FDFDFD;
+    }
+
+    .e-input-group-icon.e-date-icon::before,
+    *.e-control-wrapper .e-input-group-icon.e-date-icon::before {
+        margin-right: -5px;
+    }
+
+    .e-time-wrapper .e-time-icon.e-icons::before,
+    *.e-control-wrapper.e-time-wrapper .e-time-icon.e-icons::before {
+        margin-right: -5px;
+    }
+
+    .calcLocationTxt {
+        margin-top: 5px !important;
+        margin-left: 65px;
+        background: #FDFDFD;
+    }
+}
+
+input.e-input,
+.e-input-group input.e-input,
+.e-input-group input,
+.e-input-group.e-control-wrapper input.e-input,
+.e-input-group.e-control-wrapper input,
+.e-float-input input.e-input,
+.e-float-input input,
+.e-float-input.e-control-wrapper input.e-input,
+.e-float-input.e-control-wrapper input,
+.e-input-group input.e-input:focus,
+.e-input-group.e-control-wrapper input.e-input:focus,
+.e-float-input.e-control-wrapper input:focus,
+.e-float-input input:focus,
+.e-input-group.e-input-focus input.e-input,
+.e-input-group.e-control-wrapper.e-input-focus input.e-input,
+.e-float-input.e-control-wrapper.e-input-focus input,
+.e-float-input.e-input-focus input {
+    padding-left: 20px;
+    text-indent: 0;
+}
+
+.difCounTextpst {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+
+    margin-top: 10px !important;
+    color: #333333;
+}
